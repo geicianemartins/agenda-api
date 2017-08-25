@@ -1,0 +1,28 @@
+{
+    "id": "api/schema/Contact",
+    "type": "object",
+    "required": ["nome", "telefone"],
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "nome": {
+            "type": "string"
+        },
+        "sobrenome" : {
+            "type": "string"
+        },
+        "telefone": {
+            "type": "string"
+        },
+        "apelido": {
+            "type": "string"
+        },
+        "nomeMae": {
+            "type": "string"
+        },
+        "dataCadastro": {
+            "type": "Date"
+        }
+    }
+}
